@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:background="#f0f4c3"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="460dp"
+    tools:context="com.kingswhale.n_watch.SingUpActivity"
+    android:id="@+id/linearLayout">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/prompt_first_Name"
+        android:imeActionId="@+id/signup"
+        android:imeActionLabel="@string/action_sign_up_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:ignore="Deprecated,RtlHardcoded" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_lastName"
+        android:imeActionId="@+id/signup"
+        android:imeActionLabel="@string/action_sign_up_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:ignore="Deprecated,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_address"
+        android:imeActionId="@+id/signup"
+        android:imeActionLabel="@string/action_sign_up_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:ignore="Deprecated,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_sign_up_email"
+        android:imeActionId="@+id/signup"
+        android:imeActionLabel="@string/action_sign_up_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:ignore="Deprecated,RtlHardcoded,TextFields" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_phone_number"
+        android:imeActionId="@+id/signup"
+        android:imeActionLabel="@string/action_sign_up_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:ignore="Deprecated,RtlHardcoded,TextFields" />
+
+    <CheckBox
+        android:layout_marginLeft="25dp"
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="I agree all statement in"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/Terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textSize="12sp"
+        android:text="Terms and condition"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center"
+        android:onClick="location"
+        android:textColor="#f0f4c3"
+        android:text="@string/action_button"
+        android:background="@color/colorPrimary"
+        tools:ignore="ObsoleteLayoutParam" />
+
+</LinearLayout></ScrollView>
+</LinearLayout>
