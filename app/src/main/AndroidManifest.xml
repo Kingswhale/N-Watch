@@ -61,7 +61,9 @@
             android:name=".ReportActivity"
             android:label="@string/title_activity_report"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CrimeReportActivity"></activity>
+        <activity android:name=".CrimeReportActivity"
+            android:icon="@drawable/icon"
+            android:label="@string/add_report"></activity>
     </application>
 
 </manifest>

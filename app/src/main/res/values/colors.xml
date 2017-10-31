@@ -3,4 +3,6 @@
     <color name="colorPrimary">#1b5e20</color>
     <color name="colorPrimaryDark">#07480c</color>
     <color name="colorAccent">#00c853</color>
+    <color name="actionbar_background">#99ffffff</color>
+    <color name="tab_transparent">#10ffffff</color>
 </resources>
